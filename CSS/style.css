@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   border: 0;
-  width: 1440px;
 }
 
 body {
@@ -102,8 +101,8 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 800px;
-    width: 700px;
+    height: 1000px;
+    width: 800px;
     margin-left: 570px;
     margin-top: 200px;
     flex-direction: column;
