@@ -101,8 +101,8 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 1000px;
-    width: 800px;
+    height: 750px;
+    width: 700px;
     margin-left: 570px;
     margin-top: 200px;
     flex-direction: column;
