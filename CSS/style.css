@@ -155,6 +155,11 @@ h1{
     width: 1700px;
     flex-direction: column;
   }
+
+  .img-contain {
+    background-image: url("/IMAGES/image-product-mobile.jpg");
+    background-size: 150px;
+  }
   button{
     width: 100px;
   }
