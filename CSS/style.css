@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width:1440px
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.container{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 500px;
+ width: 700px;
+ margin-left: 570px;
+ margin-top: 200px;
+
+}
+
+.img-contain, .content-contain{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 50%;
+    height: 100%;
+}
+
+.img-contain{
+background-color: greenyellow;
+background-image: url("/IMAGES/image-product-desktop.jpg");
+background-size: cover;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+}
+
+.content-contain{
+    background-color:white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-left: 20px;
+    align-content: center;
+    padding-top: 40px;
+}
+
+
+button{
+    width: 300px;
+    height: 50px;
+    background-color:  hsl(158, 36%, 37%);
+    border-radius: 10px;
+    color: white;
+    font-family: Montserrat ;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+}
+button:hover{
+    width: 320px;
+    height: 50px;
+    font-size: 16px;
+    background-color: hsl(158, 36%, 37%);
+}
+h5{
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 0.5rem;
+    font-family: Montserrat;
+}
+
+.p{
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    line-height:20px;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+
+h2{
+    font-weight: 700;
+    font-family: Fraunces;
+    font-size: 40px;
+    
+}
+
+.m{
+    font-size: 48px;
+    color: hsl(158, 36%, 37%);
+    font-family: Fraunces;
+
+}
+
+.cart{
+    height: 14px;
+    width: 14px;
+    margin-right: 7px;
+}
+
+
+@media screen and (max-width: 800px){
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 800px;
+        width: 700px;
+        margin-left: 570px;
+        margin-top: 200px;
+        flex-direction: column;
+    }
+    .img-contain{
+        background-image: url("/IMAGES/image-product-mobile.jpg");
+        height: 48%;
+    }
+
+
+
+
+
+
+
+}
