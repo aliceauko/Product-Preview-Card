@@ -122,8 +122,8 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    width: 900px;
+    height: 1000px;
+    width: 1400px;
     flex-direction: column;
   }
   .img-contain {
@@ -142,5 +142,27 @@ h1{
 
   button{
     width: 200px;
+  }
+}
+
+
+@media screen and (max-width: 464px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1300px;
+    width: 1700px;
+    flex-direction: column;
+  }
+  button{
+    width: 100px;
+  }
+
+  h1{
+    font-size: 30px;
+  }
+  .m{
+    font-size: 36px;
   }
 }
