@@ -46,7 +46,6 @@ height: 100vh;
 }
 
 .img-contain {
-  background-color: greenyellow;
   background-image: url("/IMAGES/image-product-desktop.jpg");
   background-size: cover;
   border-top-left-radius: 10px;
